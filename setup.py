@@ -20,7 +20,7 @@ setup(
     ],
     author="Adarsh Melethil",
     author_email="adarshmelethil@gmail.com",
-    install_requires=["docopts"],
+    install_requires=["docopts", "selenium==3.141.0", "python-dotenv"],
     packages=find_packages("src"),
     package_dir={"": "src"},
     entry_points={"console_scripts": ["pygram=pygram.cli:main"]},
